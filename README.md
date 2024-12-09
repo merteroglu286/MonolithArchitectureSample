@@ -66,7 +66,7 @@
 
 <h3>4.5 ViewModel</h3>
 <p>ViewModels store and manage UI-related data. They interact with the domain layer and expose LiveData or StateFlow for the UI to observe.</p>
-
+<p><b>Note:</b> Specific ViewModel classes are kept within the respective fragment and activity packages to maintain clear separation of concerns and ease of access.</p>
 <hr>
 
 <h2>5. Utility</h2>
